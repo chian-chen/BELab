@@ -13,6 +13,15 @@ Non-contact control is a current trend, offering more flexible and convenient op
 --->
 
 ## System Overview
+To achieve high flexibility, we created a simple frontend [website](https://chian-chen.github.io/BELab-Final/) to facilitate user shortcut key configuration. The completed system flowchart is roughly depicted in the below figure.
+
+<p align="center">
+<img width="600" alt="sysyem" src="https://github.com/chian-chen/BELab/assets/55650127/d9378aee-f490-4bdf-a8ef-ea3ea6a6ad3a">
+</p>
+
+
+
+First, users configure their preferences using the frontend website according to their needs. They map our defined gestures to specific shortcut keys, generating a configuration .json file. Next, they place the generated file in the path where the Python program executes. The data collected by the nine-axis sensor (IMU) is processed using the [library](https://github.com/arduino-libraries/Arduino_LSM9DS1) and connected to an Arduino UNO. PySerial is used to establish a connection between Python and Arduino. Subsequently, the trained CNN model generates results, which, when mapped to the configured shortcut keys, are sent to PyAutoGUI for gesture-to-keyboard control.
 
 
 ## Original stuff
