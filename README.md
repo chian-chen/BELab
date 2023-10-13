@@ -1,4 +1,4 @@
-# Air-Ring Gesture Recognition: Improving Workflow with Shortcut Keys\
+# Air-Ring Gesture Recognition: Improving Workflow with Shortcut Keys
 
 ## Link
 - **Demo Video**: https://youtu.be/3UDJmE8ajxY
