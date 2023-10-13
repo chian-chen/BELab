@@ -112,7 +112,7 @@ Three constantly updating queues for collecting the latest 150 data points (for 
 5. If the result is not categorized as noise, execute the corresponding predefined keyboard shortcut settings and clear the queue to avoid redundant execution of the same shortcut settings.
 
 ## Evaluation
-In our presentation of results, we use two distinct approaches: assessing the speed of hand gesture recognition and simulating real-world usage. These results are showcased in Part 2 and Part 3 of the video presentation (https://youtu.be/3UDJmE8ajxY).
+In our presentation of results, we use two distinct approaches: assessing the speed of hand gesture recognition and simulating real-world usage. These results are showcased in Part 2 and Part 3 of the [video presentation](https://youtu.be/3UDJmE8ajxY).
 
 ### Speed Testing
 For speed evaluation, we employed customized settings from a [typing website](https://monkeytype.com/) to measure the time needed for correctly recognizing 30 hand gestures. We used the following gestures: Up, Down, Left, Right, O, V, Z, N, corresponding to (U, D, L, R, O, V, Z, N). Please refer to Fig. 10 for the interface.
