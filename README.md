@@ -52,7 +52,7 @@ To avoid model overfitting and increase the diversity of training data to improv
 
 When implementing real-time recognition algorithms, the model continuously recognizes the signal as input, which can lead to incorrect judgments after recognizing the first half of a gesture signal. Therefore, we randomly take 50 points from the collected noise data (Fig. 5, red part), and add them to the pre-processed training data's first 30 points (Fig. 5, blue part), creating new noise data.
 
-We collected approximately 5700 training data in total, with about 450 data points for each gesture and about 2000 data points for noise. You can refer to the data and imgs folders in the GitHub repository for raw data (.npz) and visualized images.
+We collected approximately 5700 training data in total, with about 450 data points for each gesture and about 2000 data points for noise. You can refer to the data and imgs folders for raw data (.npz) and visualized images.
 
 <div align="center">
   <img width="565" alt="noise" src="https://github.com/chian-chen/BELab/assets/55650127/420b216d-ef44-4e26-b0fb-2e772b3b0234">
